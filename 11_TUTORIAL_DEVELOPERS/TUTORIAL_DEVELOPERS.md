@@ -1,0 +1,25 @@
+# Tutorial — Developers — ZONEMINDER
+
+**Company:** Anticloud FZ LLE
+**Model:** PAX L5 Narrow L2 General 27B
+**Project:** ZONEMINDER | Category: SURVEILLANCE_CAMERA
+**Upstream:** https://github.com/ZoneMinder/zoneminder (GPL)
+
+## Overview
+
+This document covers tutorial — developers for the Anticloud integration of ZONEMINDER.
+
+Full-featured CCTV/IP camera surveillance
+
+## Anticloud Integration
+
+PAX L5 Narrow L2 General 27B is integrated into ZONEMINDER to provide:
+- Local AI inference with zero cloud dependency
+- AIOSS tamper-evident audit chain
+- AES-256 encryption at rest
+- Single-binary deployment
+
+## Contact
+
+Lois-Kleinner Alpasan — CEO & CTO, Anticloud FZ LLE
+lois@0-1.gg | 0-1.gg

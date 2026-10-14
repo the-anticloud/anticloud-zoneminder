@@ -1,0 +1,347 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:53f80dd4-f18d-5c60-8b23-66f3f4011529",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-06T15:28:51Z",
+    "component": {
+      "type": "application",
+      "name": "ZONEMINDER",
+      "version": "3d858e2ccb32",
+      "bom-ref": "pkg:generic/anticloud/ZONEMINDER@3d858e2ccb32",
+      "purl": "pkg:generic/anticloud/ZONEMINDER@3d858e2ccb32",
+      "licenses": [
+        {
+          "license": {
+            "id": "GPL-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "3d858e2ccb323e168b520f1689ea7b3b43290fcd"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/ZoneMinder/zoneminder"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "LibUnwind",
+      "version": "unspecified",
+      "purl": "pkg:generic/LibUnwind",
+      "bom-ref": "native/LibUnwind@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ZLIB",
+      "version": "unspecified",
+      "purl": "pkg:generic/ZLIB",
+      "bom-ref": "native/ZLIB@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "CURL",
+      "version": "unspecified",
+      "purl": "pkg:generic/CURL",
+      "bom-ref": "native/CURL@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "JPEG",
+      "version": "unspecified",
+      "purl": "pkg:generic/JPEG",
+      "bom-ref": "native/JPEG@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "LibJWT",
+      "version": "unspecified",
+      "purl": "pkg:generic/LibJWT",
+      "bom-ref": "native/LibJWT@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "jwt-cpp",
+      "version": "unspecified",
+      "purl": "pkg:generic/jwt-cpp",
+      "bom-ref": "native/jwt-cpp@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "OpenSSL",
+      "version": "unspecified",
+      "purl": "pkg:generic/OpenSSL",
+      "bom-ref": "native/OpenSSL@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "MOSQUITTO",
+      "version": "unspecified",
+      "purl": "pkg:generic/MOSQUITTO",
+      "bom-ref": "native/MOSQUITTO@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "MOSQUITTOPP",
+      "version": "unspecified",
+      "purl": "pkg:generic/MOSQUITTOPP",
+      "bom-ref": "native/MOSQUITTOPP@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "FFMPEG",
+      "version": "unspecified",
+      "purl": "pkg:generic/FFMPEG",
+      "bom-ref": "native/FFMPEG@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Boost",
+      "version": "unspecified",
+      "purl": "pkg:generic/Boost",
+      "bom-ref": "native/Boost@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "GSOAP",
+      "version": "unspecified",
+      "purl": "pkg:generic/GSOAP",
+      "bom-ref": "native/GSOAP@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "V4L2",
+      "version": "unspecified",
+      "purl": "pkg:generic/V4L2",
+      "bom-ref": "native/V4L2@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "nlohmann_json",
+      "version": "unspecified",
+      "purl": "pkg:generic/nlohmann_json",
+      "bom-ref": "native/nlohmann_json@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Perl",
+      "version": "unspecified",
+      "purl": "pkg:generic/Perl",
+      "bom-ref": "native/Perl@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "PerlModules",
+      "version": "unspecified",
+      "purl": "pkg:generic/PerlModules",
+      "bom-ref": "native/PerlModules@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Polkit",
+      "version": "unspecified",
+      "purl": "pkg:generic/Polkit",
+      "bom-ref": "native/Polkit@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Catch2",
+      "version": "unspecified",
+      "purl": "pkg:generic/Catch2",
+      "bom-ref": "native/Catch2@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "jquery",
+      "version": ">=1.8.0 <4.0.0",
+      "purl": "pkg:npm/jquery@>=1.8.0 <4.0.0",
+      "bom-ref": "npm/jquery@>=1.8.0 <4.0.0"
+    },
+    {
+      "type": "library",
+      "name": "commitplease",
+      "version": "3.2.0",
+      "purl": "pkg:npm/commitplease@3.2.0",
+      "bom-ref": "npm/commitplease@3.2.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint-config-jquery",
+      "version": "3.0.0",
+      "purl": "pkg:npm/eslint-config-jquery@3.0.0",
+      "bom-ref": "npm/eslint-config-jquery@3.0.0"
+    },
+    {
+      "type": "library",
+      "name": "glob",
+      "version": "7.2.0",
+      "purl": "pkg:npm/glob@7.2.0",
+      "bom-ref": "npm/glob@7.2.0"
+    },
+    {
+      "type": "library",
+      "name": "grunt",
+      "version": "1.5.3",
+      "purl": "pkg:npm/grunt@1.5.3",
+      "bom-ref": "npm/grunt@1.5.3"
+    },
+    {
+      "type": "library",
+      "name": "grunt-bowercopy",
+      "version": "1.2.5",
+      "purl": "pkg:npm/grunt-bowercopy@1.2.5",
+      "bom-ref": "npm/grunt-bowercopy@1.2.5"
+    },
+    {
+      "type": "library",
+      "name": "grunt-cli",
+      "version": "1.4.3",
+      "purl": "pkg:npm/grunt-cli@1.4.3",
+      "bom-ref": "npm/grunt-cli@1.4.3"
+    },
+    {
+      "type": "library",
+      "name": "grunt-compare-size",
+      "version": "0.4.2",
+      "purl": "pkg:npm/grunt-compare-size@0.4.2",
+      "bom-ref": "npm/grunt-compare-size@0.4.2"
+    },
+    {
+      "type": "library",
+      "name": "grunt-contrib-concat",
+      "version": "1.0.1",
+      "purl": "pkg:npm/grunt-contrib-concat@1.0.1",
+      "bom-ref": "npm/grunt-contrib-concat@1.0.1"
+    },
+    {
+      "type": "library",
+      "name": "grunt-contrib-csslint",
+      "version": "2.0.0",
+      "purl": "pkg:npm/grunt-contrib-csslint@2.0.0",
+      "bom-ref": "npm/grunt-contrib-csslint@2.0.0"
+    },
+    {
+      "type": "library",
+      "name": "grunt-contrib-qunit",
+      "version": "5.1.1",
+      "purl": "pkg:npm/grunt-contrib-qunit@5.1.1",
+      "bom-ref": "npm/grunt-contrib-qunit@5.1.1"
+    },
+    {
+      "type": "library",
+      "name": "grunt-contrib-requirejs",
+      "version": "1.0.0",
+      "purl": "pkg:npm/grunt-contrib-requirejs@1.0.0",
+      "bom-ref": "npm/grunt-contrib-requirejs@1.0.0"
+    },
+    {
+      "type": "library",
+      "name": "grunt-contrib-uglify",
+      "version": "5.0.1",
+      "purl": "pkg:npm/grunt-contrib-uglify@5.0.1",
+      "bom-ref": "npm/grunt-contrib-uglify@5.0.1"
+    },
+    {
+      "type": "library",
+      "name": "grunt-eslint",
+      "version": "23.0.0",
+      "purl": "pkg:npm/grunt-eslint@23.0.0",
+      "bom-ref": "npm/grunt-eslint@23.0.0"
+    },
+    {
+      "type": "library",
+      "name": "grunt-git-authors",
+      "version": "3.2.0",
+      "purl": "pkg:npm/grunt-git-authors@3.2.0",
+      "bom-ref": "npm/grunt-git-authors@3.2.0"
+    },
+    {
+      "type": "library",
+      "name": "grunt-html",
+      "version": "14.5.0",
+      "purl": "pkg:npm/grunt-html@14.5.0",
+      "bom-ref": "npm/grunt-html@14.5.0"
+    },
+    {
+      "type": "library",
+      "name": "load-grunt-tasks",
+      "version": "5.1.0",
+      "purl": "pkg:npm/load-grunt-tasks@5.1.0",
+      "bom-ref": "npm/load-grunt-tasks@5.1.0"
+    },
+    {
+      "type": "library",
+      "name": "rimraf",
+      "version": "3.0.2",
+      "purl": "pkg:npm/rimraf@3.0.2",
+      "bom-ref": "npm/rimraf@3.0.2"
+    },
+    {
+      "type": "library",
+      "name": "testswarm",
+      "version": "1.1.2",
+      "purl": "pkg:npm/testswarm@1.1.2",
+      "bom-ref": "npm/testswarm@1.1.2"
+    },
+    {
+      "type": "library",
+      "name": "LibreSSL",
+      "version": "unspecified",
+      "purl": "pkg:generic/LibreSSL",
+      "bom-ref": "native/LibreSSL@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "PkgConfig",
+      "version": "unspecified",
+      "purl": "pkg:generic/PkgConfig",
+      "bom-ref": "native/PkgConfig@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "wolfssl",
+      "version": "unspecified",
+      "purl": "pkg:generic/wolfssl",
+      "bom-ref": "native/wolfssl@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "picojson",
+      "version": "unspecified",
+      "purl": "pkg:generic/picojson",
+      "bom-ref": "native/picojson@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "GTest",
+      "version": "unspecified",
+      "purl": "pkg:generic/GTest",
+      "bom-ref": "native/GTest@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "jsoncons",
+      "version": "unspecified",
+      "purl": "pkg:generic/jsoncons",
+      "bom-ref": "native/jsoncons@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "jwt-cpp",
+      "version": "0.6.0",
+      "purl": "pkg:generic/jwt-cpp@0.6.0",
+      "bom-ref": "conan/jwt-cpp@0.6.0"
+    }
+  ]
+}
